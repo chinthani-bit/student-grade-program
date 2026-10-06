@@ -18,8 +18,11 @@ public class StudentGrade {
 
         System.out.print("Enter Basic Programming score: ");
         double BasicProgrammingScore = scanner.nextDouble();
+        double average = (FinnishScore + OperatingSystemsScore + BasicProgrammingScore) / 3;
+
 
          System.out.println("Student: " + studentName);
+         System.out.println("Average Score: " + average);
 
      }   
     
